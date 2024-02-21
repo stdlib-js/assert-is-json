@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@deno/mod.js';
+import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@v0.2.1-deno/mod.js';
 ```
 
 #### isJSON( value )
@@ -85,7 +85,7 @@ var bool = isJSON( value );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@deno/mod.js';
+import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@v0.2.1-deno/mod.js';
 
 var bool = isJSON( '{"a":5}' );
 // returns true
