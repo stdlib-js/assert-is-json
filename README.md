@@ -35,19 +35,32 @@ limitations under the License.
 
 > Test if a value is a parseable JSON string.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-json
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-json/tags). For example,
-
-```javascript
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@v0.2.0-esm/index.mjs';
+var isJSON = require( '@stdlib/assert-is-json' );
 ```
 
 #### isJSON( value )
@@ -89,23 +102,14 @@ var bool = isJSON( value );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@esm/index.mjs';
+```javascript
+var isJSON = require( '@stdlib/assert-is-json' );
 
 var bool = isJSON( '{"a":5}' );
 // returns true
 
 bool = isJSON( '{a":5}' );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -129,7 +133,7 @@ bool = isJSON( '{a":5}' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -159,8 +163,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-json.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-json
 
-[test-image]: https://github.com/stdlib-js/assert-is-json/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/assert-is-json/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/assert-is-json/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/assert-is-json/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-json/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-json?branch=main
