@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@esm/index.mjs';
+import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@v0.2.2-esm/index.mjs';
 ```
 
 #### isJSON( value )
@@ -90,7 +90,7 @@ var bool = isJSON( value );
 <body>
 <script type="module">
 
-import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@esm/index.mjs';
+import isJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-json@v0.2.2-esm/index.mjs';
 
 var bool = isJSON( '{"a":5}' );
 // returns true
